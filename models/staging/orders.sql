@@ -1,1 +1,1 @@
-select * from {{ source('public', 'orders') }}
+select * from {{ source('tpch_sf1', 'orders') }}
